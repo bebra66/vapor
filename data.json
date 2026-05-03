@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "name": "Cyberpunk 2077",
+    "price": 599,
+    "genre": "rpg",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/header.jpg"
+  },
+  {
+    "id": 2,
+    "name": "GTA V",
+    "price": 299,
+    "genre": "action",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/271590/header.jpg"
+  },
+  {
+    "id": 3,
+    "name": "CS2",
+    "price": 0,
+    "genre": "shooter",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/730/header.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Dota 2",
+    "price": 0,
+    "genre": "moba",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg"
+  },
+  {
+    "id": 5,
+    "name": "The Witcher 3",
+    "price": 199,
+    "genre": "rpg",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/header.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Rust",
+    "price": 399,
+    "genre": "survival",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/252490/header.jpg"
+  },
+  {
+    "id": 7,
+    "name": "DayZ",
+    "price": 349,
+    "genre": "survival",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/221100/header.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Terraria",
+    "price": 99,
+    "genre": "sandbox",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/105600/header.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Hollow Knight",
+    "price": 149,
+    "genre": "indie",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/367520/header.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Elden Ring",
+    "price": 699,
+    "genre": "rpg",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Forza Horizon 5",
+    "price": 799,
+    "genre": "racing",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1551360/header.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Minecraft",
+    "price": 399,
+    "genre": "sandbox",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1293830/header.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Phasmophobia",
+    "price": 199,
+    "genre": "horror",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/739630/header.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Dead by Daylight",
+    "price": 249,
+    "genre": "horror",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/381210/header.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Subnautica",
+    "price": 299,
+    "genre": "survival",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/264710/header.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Skyrim",
+    "price": 199,
+    "genre": "rpg",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/489830/header.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Stardew Valley",
+    "price": 149,
+    "genre": "indie",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/413150/header.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Valheim",
+    "price": 299,
+    "genre": "survival",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/892970/header.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Among Us",
+    "price": 99,
+    "genre": "party",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/945360/header.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Fall Guys",
+    "price": 0,
+    "genre": "party",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1097150/header.jpg"
+  }
+]
