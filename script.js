@@ -1,10 +1,6 @@
 
 
-// Запуск
-document.addEventListener('DOMContentLoaded', () => {
-    render();
-    updateCartUI();
-});
+
 
 
   const container = document.querySelector('.animation-form');
@@ -18,17 +14,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
 document.addEventListener("DOMContentLoaded", () => {
     async function getProducts() {
-        let response = await fetch("products.json")
+        let response = await fetch("data.json")
         let products = await response.json()
         return products
     }
 
     function createProductCard(product) {
         return `
-            <div class="card" style="width: 18rem;">
-                <img src="img/${product.image}" class="card-img-top" alt="...">
+            <div class="card me-3" style="width: 18rem;">
+                <img src="${product.image}" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">${product.title}</h5>
+                    <h5 class="card-title">${product.name}</h5>
                     <p class="card-text">${product.price}</p>
                     <a href="#" class="btn btn-primary">Купити</a>
                 </div>
@@ -37,7 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     getProducts().then(products => {
-        const productList = document.querySelector('.product-list')
+        const productList = document.querySelector('#games-grid')
         productList.innerHTML= '';
         products.forEach(product => {
             productList.innerHTML+=createProductCard(product)

@@ -1,71 +1,76 @@
 <!DOCTYPE html>
 <html lang="uk">
+
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VAPOR | Справжня Крамниця</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css" />
     <!-- default theme -->
-<link rel="stylesheet" href="https://ka-f.webawesome.com/webawesome@3.5.0/styles/themes/default.css">
-<!-- optional native styles/CSS reset -->
-<link rel="stylesheet" href="https://ka-f.webawesome.com/webawesome@3.5.0/styles/native.css">
+    <link rel="stylesheet" href="https://ka-f.webawesome.com/webawesome@3.5.0/styles/themes/default.css">
+    <!-- optional native styles/CSS reset -->
+    <link rel="stylesheet" href="https://ka-f.webawesome.com/webawesome@3.5.0/styles/native.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
-<header class="steam-header">
-    <div class="container d-flex justify-content-between align-items-center h-100">
-        <div class="vapor-logo">VAPOR</div>
-        <nav class="nav-links">
-            <a href="index.html" class="active">КРАМНИЦЯ</a>
-            <a href="#" class="active">БІБЛІОТЕКА</a>
-            <a href="#" class="active">СПІЛЬНОТА</a>
+    <header class="steam-header">
+        <div class="container d-flex justify-content-between align-items-center h-100">
+            <div class="vapor-logo">VAPOR</div>
+            <nav class="nav-links">
+                <a href="index.html" class="active">КРАМНИЦЯ</a>
+                <a href="#" class="active">БІБЛІОТЕКА</a>
+                <a href="#" class="active">СПІЛЬНОТА</a>
 
-        </nav>
+            </nav>
 
-        <button class="cart-button-real" data-bs-toggle="modal" data-bs-target="#cartModal">
-                   <div class="animation-form">
-  <wa-animation name="rubberBand" duration="1000" iterations="1">
-    <wa-button appearance="filled" variant="brand"><i class="ti ti-shopping-bag"></i>кошик</wa-button>
-  </wa-animation>
-</div>
-
-
-
-    </div>
-        </button>
-    </div>
-</header>
-
-<main class="container my-4">
-    <h5 class="section-title mb-3">АКТУАЛЬНЕ ТА ПОПУЛЯРНЕ</h5>
-    <div class="row g-3" id="games-grid">
-        </div>
-</main>
-
-<div class="modal fade" id="cartModal" tabindex="-1" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content steam-modal">
-            <div class="modal-header border-0">
-                <h5 class="modal-title">ВАШ КОШИК</h5>
-                
-                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
-            </div>
-            <div class="modal-body" id="cart-list">
+            <button class="cart-button-real" data-bs-toggle="modal" data-bs-target="#cartModal">
+                <div class="animation-form">
+                    <wa-animation name="rubberBand" duration="1000" iterations="1">
+                        <wa-button appearance="filled" variant="brand"><i
+                                class="ti ti-shopping-bag"></i>кошик</wa-button>
+                    </wa-animation>
                 </div>
-            <div class="modal-footer border-0">
-                <button class="btn btn-success w-100 fw-bold" onclick="checkout()">ОФОРМИТИ ЗАМОВЛЕННЯ</button>
+
+
+
+        </div>
+        </button>
+        </div>
+    </header>
+
+    <main class="container my-4">
+        <h5 class="section-title mb-3">АКТУАЛЬНЕ ТА ПОПУЛЯРНЕ</h5>
+        <div class="row g-3" id="games-grid">
+        </div>
+    </main>
+
+    <div class="modal fade" id="cartModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content steam-modal">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title">ВАШ КОШИК</h5>
+
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body" id="cart-list">
+                </div>
+                <div class="modal-footer border-0">
+                    <button class="btn btn-success w-100 fw-bold" onclick="checkout()">ОФОРМИТИ ЗАМОВЛЕННЯ</button>
+                </div>
             </div>
         </div>
+
+
+
+
     </div>
-    
-
-
-
-</div>
-<script type="module" src="https://ka-f.webawesome.com/webawesome@3.5.0/webawesome.loader.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-<script src="script.js"></script>
+    <script type="module" src="https://ka-f.webawesome.com/webawesome@3.5.0/webawesome.loader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
